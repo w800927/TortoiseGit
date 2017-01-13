@@ -1,0 +1,139 @@
+2014.05.12
+* only delete log*.txt in auto delete log
+* delete data*.txt in auto delete log
+* fix a bug in display customized button
+
+2014.05.06
+* return a info page to client if exceed the bandwidth quota.
+* add log max save days function
+* add outgoing ip in https log
+
+2014.05.04
+* fix a bug in help
+
+2014.04.18
+* change CCProxy main interface and icon
+* add domain group function in domain user auth
+* fix a bug in webfilter
+* fix interface auto opens repeatedly bug
+
+2013.12.06
+* fix x64 bug
+
+2013.10.30
+* fix a bug in http connect
+* add x64 edition
+
+2013.07.24
+* fix a bug in lefttime.
+
+2013.07.01
+* fix a bug in UDP map.
+
+2013.06.27
+* fix a bug in UDP map.
+
+2013.06.26
+* add auto update function
+* fix a bug of closing windows in uninstall
+* fix a bug in UDP map.
+
+2013.06.24
+* fix a bug in pop3 proxy
+
+2013.06.21
+* fix a bug in getting web title of utf-8
+
+2013.06.19
+* add CAPA command in POP3 mail proxy and support Office 2013
+
+2013.06.19
+* fix a charset bug in auth failed message
+
+2013.06.15
+* fix a bug in sort bandwidth monitor dialog box.
+
+2013.06.11
+* add sort function in bandwidth monitor dialog box.
+* add charset in authentication failed message.
+
+2013.06.10
+* fix display string when auth failed
+* fix remote admin logout
+* fix 255.255.255.255 problem when IP is blank
+
+2013.06.06
+* fix a machine id bug
+
+2013.06.03
+* fix a bug in stop and closesocket
+* add gzip decode title function
+* registration problem in nt service
+* disable web cache function because compatibility problem.
+* add copy log to clipboard in monitor
+
+2013.05.29
+* impove mac address scan speed
+* save account sort
+* retrive mac address in account dialog box
+* fix a bug in block qq
+* fix a bug in closesocket proxy2server
+* fix machineid
+
+2013.05.24
+* fix a bug in mac address that taken from 2013.05.06.
+* add build date in the title.
+* remvoe autocache function.
+
+2013.05.14
+* open http port forward function.
+* open enterprise edition function.
+* language added.
+
+2013.05.10
+* fix a bug in register dialog box.
+
+2013.05.06
+* fix auto update bug
+
+2013.03.22
+* fix https proxy bug in safari
+* fix closesock bug in http proxy
+* fix basic authentication bug in chrome
+
+2013.01.30
+* add option for limit multiple login with username.
+
+2013.01.29
+* fix a bug in dump.
+* fix a bug in webfilter. When delete a webfilter, ccproxy will crash.
+
+2013.01.23
+* Remove gzip function. It's possible get program crash.
+
+2013.01.08
+* improve auto cache supports two deep links
+
+2013.01.07
+* fix a bug in auto cache
+
+2013.01.03
+* added auto cache function.
+
+2012.11.09
+* remove hostname auth option. it will lead mac address auth delay.
+
+2012.11.08
+* fixed a bug in mac address auth
+
+2012.11.07
+* fixed a bug in shutdown socket. the bug will cause open website slow.
+* ntlm ignore Yahoo Messenger. In ccproxy.ini [Network] section, you can add own ignore agent in parameter "IgnoreAgentNTLM"
+* fixed a bug in register (without machine id)
+
+2012.11.06
+* iTune has bug in NTLM authentication. So we bypass auth with iTune.
+* fixed a bug in register
+
+2012.10.29
+* fixed a bug in NTUser (multiple bytes problem)
